@@ -1,49 +1,47 @@
 .btn {
-    display: inline-block;
-    
-    padding: 12px 24px;
-    font-weight: 500; 
-    font-size: 12px;
-    line-height: 14px;
+  display: inline-block;
 
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .transparent-btn {
-    border-radius: 74px;
-    border: 1px solid;
-    border-color: var(--linear-light-to-dark);
-    background-color: transparent;
+  border-radius: 74px;
+  border: 1px solid;
+  border-color: var(--linear-light-to-dark);
+  background-color: transparent;
 }
 .orange-btn {
-    border-radius: 75px;
-    background: var(--linear-light-to-dark);
-    border: 1px solid;
-    }
-    
-    .orange-btn:hover,
-    .orange-btn:focus {
-        background: var(--lightest-color);
-        color: var(--accent-color);
-        border-color: inherit;
+  border-radius: 75px;
+  background: var(--linear-light-to-dark);
+  border: 1px solid;
+}
+
+.orange-btn:hover,
+.orange-btn:focus {
+  background: var(--lightest-color);
+  color: var(--accent-color);
+  border-color: inherit;
 }
 
 /* MOBILE */
 @media screen and (min-width: 320px) {
-
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .btn {
-        font-size: 14px;
-        line-height: 16px;
-    }
+  .btn {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
-    .btn {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .btn {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
